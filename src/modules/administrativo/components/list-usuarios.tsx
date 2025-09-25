@@ -80,7 +80,7 @@ export default function ListUsuarios(){
     const fetchusuarios = async () => {
         try{
             //Faz uma chamada GET /usuarios para o servidor.
-           const response =  await api.get("https://2a8a59134e14.ngrok-free.app/usuario/list")
+           const response =  await api.get("https://81a773177f0b.ngrok-free.app/usuario/list")
 
            // atualiza o estado com os dados da API
            //Salva a resposta na variável usuarios.
